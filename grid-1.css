@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+
+  grid-template-rows: 200px 500px;
+}
+
+header {
+  background-color: red;
+  grid-row: 1/2;
+}
+
+main {
+  background-color: blue;
+  grid-row: 2/3;
+}
